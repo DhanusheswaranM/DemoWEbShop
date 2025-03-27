@@ -8,6 +8,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
 import com.pages.HomePage;
 import com.pages.RegistrationPage;
 import com.utilities.TestData;
@@ -44,20 +46,21 @@ public class RegistrationTest extends BaseTest {
         objRegistrationPage.conpwd.sendKeys(confirmPwd);
 
         objRegistrationPage.regbtn.click();
-
+        
+        SoftAssert soft = new SoftAssert();
         WebDriverWait wait = new WebDriverWait(dvr, Duration.ofSeconds(10));
         try {
             wait.until(ExpectedConditions.visibilityOf(objRegistrationPage.emailRequired));
-            Assert.assertTrue(objRegistrationPage.emailRequired.getText().contains("Email is required."));
+            soft.assertTrue(objRegistrationPage.emailRequired.getText().contains("Email is required."));
             System.out.println(objRegistrationPage.emailRequired.getText());
         } catch (org.openqa.selenium.TimeoutException e) {
             try {
                 wait.until(ExpectedConditions.visibilityOf(objRegistrationPage.existingEmail));
-                Assert.assertTrue(objRegistrationPage.existingEmail.getText().contains("Email is already registered."));
+                soft.assertTrue(objRegistrationPage.existingEmail.getText().contains("Email is already registered."));
                 System.out.println(objRegistrationPage.existingEmail.getText());
             } catch (org.openqa.selenium.TimeoutException e1) {
                 wait.until(ExpectedConditions.visibilityOf(objRegistrationPage.RegComTxt));
-                Assert.assertTrue(objRegistrationPage.RegComTxt.getText().equals(objRegistrationPage.expectedRegisterCompletedText));
+                soft.assertTrue(objRegistrationPage.RegComTxt.getText().equals(objRegistrationPage.expectedRegisterCompletedText));
             }
         }
     }
