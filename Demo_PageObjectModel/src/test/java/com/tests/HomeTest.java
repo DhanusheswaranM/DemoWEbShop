@@ -10,7 +10,7 @@ public class HomeTest extends BaseTest {
 	
 	@Test
 	public void VerifyHomePage() {
-		objHomePage = new HomePage(dvr);
+		objHomePage = new HomePage(getDriver());
 		Assert.assertTrue(objHomePage.getHomePageText().contains(objHomePage.getExpectedHomePageText()));
 	}
 	

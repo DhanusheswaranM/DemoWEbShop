@@ -1,69 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-27T11:14:17 IST" name="DemoWebShop_Practise" finished-at="2025-03-27T11:15:02 IST" duration-ms="44710">
+  <suite started-at="2025-03-27T12:27:29 IST" name="DemoWebShop_Practise" finished-at="2025-03-27T12:28:00 IST" duration-ms="31404">
     <groups>
     </groups>
-    <test started-at="2025-03-27T11:14:17 IST" name="Test" finished-at="2025-03-27T11:15:02 IST" duration-ms="44710">
+    <test started-at="2025-03-27T12:27:29 IST" name="Test" finished-at="2025-03-27T12:28:00 IST" duration-ms="31404">
       <class name="com.tests.RegistrationTest">
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.tests.RegistrationTest@74e52ef6]" started-at="2025-03-27T11:14:18 IST" name="tearUp" finished-at="2025-03-27T11:14:24 IST" duration-ms="6405" status="PASS">
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.tests.RegistrationTest@62ddbd7e]" started-at="2025-03-27T12:27:30 IST" name="tearUp" finished-at="2025-03-27T12:27:47 IST" duration-ms="16958" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.RegistrationTest@74e52ef6]" started-at="2025-03-27T11:14:24 IST" name="setUp" finished-at="2025-03-27T11:14:24 IST" duration-ms="36" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="registration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.RegistrationTest@74e52ef6]" started-at="2025-03-27T11:14:24 IST" name="registration" data-provider="excelTestData" finished-at="2025-03-27T11:14:25 IST" duration-ms="1410" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Male]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[rgfarsrg]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[GF]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[rgfarsrg]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[rgfarsrg]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.RegistrationTest@74e52ef6]" started-at="2025-03-27T11:14:25 IST" name="tearDown" finished-at="2025-03-27T11:14:26 IST" duration-ms="222" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.tests.RegistrationTest@74e52ef6]" started-at="2025-03-27T11:14:26 IST" name="tearUp" finished-at="2025-03-27T11:14:31 IST" duration-ms="5798" status="PASS">
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.tests.RegistrationTest@62ddbd7e]" started-at="2025-03-27T12:27:30 IST" name="tearUp" finished-at="2025-03-27T12:27:47 IST" duration-ms="17410" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.RegistrationTest@74e52ef6]" started-at="2025-03-27T11:14:31 IST" name="setUp" finished-at="2025-03-27T11:14:31 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.tests.RegistrationTest@62ddbd7e]" started-at="2025-03-27T12:27:30 IST" name="tearUp" finished-at="2025-03-27T12:27:46 IST" duration-ms="16485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.RegistrationTest@62ddbd7e]" started-at="2025-03-27T12:27:46 IST" name="setUp" finished-at="2025-03-27T12:27:47 IST" duration-ms="43" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="registration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.RegistrationTest@74e52ef6]" started-at="2025-03-27T11:14:31 IST" name="registration" data-provider="excelTestData" finished-at="2025-03-27T11:14:55 IST" duration-ms="23166" status="FAIL">
+        <test-method signature="registration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.RegistrationTest@62ddbd7e]" started-at="2025-03-27T12:27:47 IST" name="registration" data-provider="excelTestData" finished-at="2025-03-27T12:27:59 IST" duration-ms="12716" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -96,62 +56,14 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at com.tests.RegistrationTest.registration(RegistrationTest.java:56)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.RegistrationTest@74e52ef6]" started-at="2025-03-27T11:14:55 IST" name="tearDown" finished-at="2025-03-27T11:14:55 IST" duration-ms="262" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.tests.RegistrationTest@74e52ef6]" started-at="2025-03-27T11:14:55 IST" name="tearUp" finished-at="2025-03-27T11:15:00 IST" duration-ms="5415" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.RegistrationTest@74e52ef6]" started-at="2025-03-27T11:15:00 IST" name="setUp" finished-at="2025-03-27T11:15:00 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.RegistrationTest@62ddbd7e]" started-at="2025-03-27T12:27:47 IST" name="setUp" finished-at="2025-03-27T12:27:47 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="registration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.RegistrationTest@74e52ef6]" started-at="2025-03-27T11:15:00 IST" name="registration" data-provider="excelTestData" finished-at="2025-03-27T11:15:01 IST" duration-ms="1114" status="PASS">
+        <test-method signature="registration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.RegistrationTest@62ddbd7e]" started-at="2025-03-27T12:27:47 IST" name="registration" data-provider="excelTestData" finished-at="2025-03-27T12:28:00 IST" duration-ms="12557" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -170,7 +82,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[]]>
+                <![CDATA[asfsf@74543gmail.com]]>
               </value>
             </param>
             <param index="4">
@@ -187,11 +99,73 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.RegistrationTest@74e52ef6]" started-at="2025-03-27T11:15:01 IST" name="tearDown" finished-at="2025-03-27T11:15:02 IST" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tests.RegistrationTest@62ddbd7e]" started-at="2025-03-27T12:27:47 IST" name="setUp" finished-at="2025-03-27T12:27:47 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.RegistrationTest@62ddbd7e]" started-at="2025-03-27T12:27:47 IST" name="registration" data-provider="excelTestData" finished-at="2025-03-27T12:28:00 IST" duration-ms="12319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rgfarsrg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[GF]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[asfsf@7743gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[rgfarsrg]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[rgfarsrg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.RegistrationTest@62ddbd7e]" started-at="2025-03-27T12:27:59 IST" name="tearDown" finished-at="2025-03-27T12:28:00 IST" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.RegistrationTest@62ddbd7e]" started-at="2025-03-27T12:28:00 IST" name="tearDown" finished-at="2025-03-27T12:28:00 IST" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.RegistrationTest@62ddbd7e]" started-at="2025-03-27T12:28:00 IST" name="tearDown" finished-at="2025-03-27T12:28:00 IST" duration-ms="375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.RegistrationTest -->
+      <class name="com.tests.HomeTest">
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:com.tests.HomeTest@175c2241]" started-at="2025-03-27T12:27:29 IST" name="tearUp" finished-at="2025-03-27T12:27:42 IST" duration-ms="12951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method signature="VerifyHomePage()[pri:0, instance:com.tests.HomeTest@175c2241]" started-at="2025-03-27T12:27:42 IST" name="VerifyHomePage" finished-at="2025-03-27T12:27:47 IST" duration-ms="5751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.HomeTest@175c2241]" started-at="2025-03-27T12:27:47 IST" name="tearDown" finished-at="2025-03-27T12:27:48 IST" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.HomeTest -->
     </test> <!-- Test -->
   </suite> <!-- DemoWebShop_Practise -->
 </testng-results>

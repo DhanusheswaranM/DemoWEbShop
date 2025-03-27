@@ -10,20 +10,22 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 
 public class BaseTest {
-	public static WebDriver dvr ;
+	public static final ThreadLocal<WebDriver>driver = new ThreadLocal<>();
  
   @BeforeMethod
   public void tearUp() {
-	  dvr = new ChromeDriver();
-	  dvr.manage().window().maximize();
-	  dvr.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	  dvr.get("https://demowebshop.tricentis.com/");
+	  driver.set(new ChromeDriver());
+	  driver.get().manage().window().maximize();
+	  driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	  driver.get().get("https://demowebshop.tricentis.com/");
 	  
   }
 
   @AfterMethod
   public void tearDown() {
-	  dvr.quit();
+	  driver.get().quit();
   }
-
+  public WebDriver getDriver() {
+	  return driver.get();
+  }
 }

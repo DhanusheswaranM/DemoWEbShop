@@ -11,7 +11,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.DataProvider;
 
 public class TestData {
-	@DataProvider(name = "excelTestData" )
+	@DataProvider(name = "excelTestData" ,parallel=true )
 	public Object[][] excelDataProvider() throws IOException{
 		Object[][] arrobj = getExcelData("D:\\EXCEL\\demowebshop.xlsx","Sheet1");
 		return arrobj;
